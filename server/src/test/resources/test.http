@@ -1,0 +1,102 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection) or
+# paste cURL into the file and request will be converted to HTTP Request format.
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+GET http://localhost:8080/JoblinBookstoreReactOrder/api/categories
+Accept: application/json
+
+###
+# curl 'http://localhost:8080/JoblinBookstoreReactOrder/api/orders'
+#  -H 'Accept: application/json, text/plain, */*'
+#  -H 'Accept-Language: en-US,en'
+#  -H 'Connection: keep-alive'
+#  -H 'Content-Type: application/json'
+#  -H 'Origin: http://localhost:3000'
+#  -H 'Referer: http://localhost:3000/'
+#  -H 'Sec-Fetch-Dest: empty'
+#  -H 'Sec-Fetch-Mode: cors'
+#  -H 'Sec-Fetch-Site: same-site'
+#  -H 'Sec-GPC: 1'
+#  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
+#  -H 'sec-ch-ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"'
+#  -H 'sec-ch-ua-mobile: ?0'
+#  -H 'sec-ch-ua-platform: "Linux"'
+#  --data-raw '{"customerForm":{"name":"Joblin K James","address":"Eaves Fairfax Towers","phone":"5169963788","email":"joblinkj@vt.edu","ccNumber":"4444333322221111","ccExpiryMonth":4,"ccExpiryYear":2024},"cart":{"itemArray":[{"id":1003,"book":{"bookId":1003,"isPublic":true,"price":6,"title":"Email From the Future","author":"Michael Rogers","categoryId":1001},"quantity":1}]}}'
+POST http://localhost:8080/JoblinBookstoreReactTransact/api/orders
+Accept: application/json, text/plain, */*
+Accept-Language: en-US,en
+Connection: keep-alive
+Origin: http://localhost:3000
+Referer: http://localhost:3000/
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-GPC: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+sec-ch-ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Linux"
+Content-Type: application/json
+
+//{
+//  "customerForm": {
+//    "name": "Joblin",
+//    "address": "Eaves Fairfax Towers",
+//    "phone": "5169963788",
+//    "email": "joblinkj@vt.edu",
+//    "ccNumber": "4444333322221111",
+//    "ccExpiryMonth": 5,
+//    "ccExpiryYear": 2024
+//  },
+//  "cart": {
+//    "itemArray": [
+//      {
+//        "id": 1003,
+//        "book": {
+//          "bookId": 1003,
+//          "isPublic": true,
+//          "price": 6,
+//          "title": "Email From the Future",
+//          "author": "Michael Rogers",
+//          "categoryId": 1001
+//        },
+//        "quantity": 1
+//      }
+//    ]
+//  }
+//}
+//Remove each fields from the customer form
+{
+  "customerForm": {
+    "name": "Joblin",
+    "address": "Eaves Fairfax Towers",
+    "phone": "(408) 555 1212",
+    "email": "joblinkj@vt.edu",
+    "ccNumber": "4444333322221111",
+    "ccExpiryMonth": 5,
+    "ccExpiryYear": 2024
+  },
+  "cart": {
+    "itemArray": [
+      {
+        "id": 1003,
+        "book": {
+          "bookId": 1003,
+          "isPublic": true,
+          "price": 6,
+          "title": "Email From the Future",
+          "author": "Michael Rogers",
+          "categoryId": 1001
+        },
+        "quantity": 1
+      }
+    ]
+  }
+}
+
+###
+
