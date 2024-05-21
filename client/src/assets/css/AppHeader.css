@@ -1,0 +1,212 @@
+.header-container {
+    display: grid;
+    grid-template-columns: auto 1fr 2fr;
+    background-color: #c6dfeb;
+    padding: 1em;
+    gap: 1em;
+
+}
+
+.bookstore-logo {
+    display: flex;
+    align-items: center;
+    padding-left: 4em;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.cart-button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.header-dropdown-and-cart {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 2em;
+    padding-right: 5em;
+}
+
+.login-button {
+
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    border-radius: 5px;
+
+    /* Main/Blue */
+    background: #3C64B1;
+    height: 42px;
+    width: 83px;
+    justify-content: center;
+
+
+    /* Bold/14px */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.3px;
+
+    /* Light / White */
+    color: #FFFFFF;
+}
+
+
+
+.home-button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 15px;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+
+
+    /* Semibold/14px */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    letter-spacing: 0.2px;
+
+    /* Main/Blue */
+    color: #373F41;
+}
+
+.home-button-active {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 15px;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+
+
+    /* Semibold/14px */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    letter-spacing: 0.2px;
+
+    /* Main/Blue */
+    color: #3C64B1;
+}
+
+.categories-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 15px;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    margin-top: 0.3rem;
+    text-decoration: none;
+    /* Semibold/14px */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    letter-spacing: 0.2px;
+
+    /* Light / Black */
+    color: #373F41;
+}
+
+.categories-button-active {
+    /* Light / Black */
+    color: #3C64B1;
+}
+
+.logo-style {
+    /* Logo 1 */
+    width: 50px;
+    height: 53.42px;
+}
+
+.search-bar {
+    padding-left: 2.3rem;
+    box-sizing: border-box;
+    width: 15.875rem;
+    height: 1.875rem;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    border: none;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none;
+    font-family: Mulish;
+}
+
+.search-bar::placeholder {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #D9D9D9;
+}
+
+.title-and-search-bar label {
+    position: relative;
+    font-family: Mulish;
+}
+
+.title-and-search-bar label:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: url("data: image/png;base64,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") center / contain no-repeat;
+    opacity: 0.5;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+}

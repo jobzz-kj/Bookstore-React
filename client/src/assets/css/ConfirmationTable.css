@@ -1,0 +1,58 @@
+    .confirmation-table {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .confirmation-table table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 1rem;
+    }
+
+    .confirmation-table th,
+    .confirmation-table td {
+        padding: 0.75rem;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .confirmation-table th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+
+    .confirmation-table .quantity {
+        text-align: center;
+    }
+
+    .confirmation-table .price {
+        text-align: right;
+    }
+
+    .confirmation-table .total-label {
+        text-align: right;
+        font-weight: bold;
+    }
+
+    .confirmation-table .total-price {
+        text-align: right;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .customer-info {
+        margin-top: 1rem;
+        padding: 1rem;
+        background-color: #f8f8f8;
+        border-radius: 4px;
+    }
+
+    .customer-info p {
+        margin-bottom: 0.5rem;
+    }
+
+    .order-price {
+        display: flex;
+        justify-content: space-between;
+    }

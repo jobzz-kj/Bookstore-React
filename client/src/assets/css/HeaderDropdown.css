@@ -1,0 +1,61 @@
+
+.header-dropdown {
+    position: relative;
+}
+
+.header-dropdown li {
+    padding: 0.25em 0.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 11rem;
+        height: 2rem;
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+        cursor: pointer;
+}
+
+.header-dropdown a {
+    color: black;
+    text-decoration: none;
+}
+
+.header-dropdown li:hover {
+    background: lightgray;
+}
+
+.header-dropdown ul {
+    background-color: whitesmoke;
+    color: black;
+    width: 11rem;
+    margin-left: 2rem;
+    border-radius: 0.1rem;
+    margin-top: -0.5rem;
+    display: block; /* Changed from none to block */
+    position: absolute;
+    min-width: 8em;
+    z-index: 1;
+    cursor: pointer;
+    visibility: hidden; /* Initially hidden */
+    opacity: 0; /* Start fully transparent */
+    transform: translateY(-10px); /* Start above its final position */
+    transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s ease-in-out; /* Transition effects */
+}
+
+.header-dropdown:hover ul {
+    visibility: visible; /* Make visible on hover */
+    opacity: 1; /* Fade to fully opaque */
+    transform: translateY(0); /* Move to final position */
+    display: block;
+        position: absolute;
+        min-width: 8em;
+        z-index: 1;
+        cursor: pointer;
+        background-color: whitesmoke;
+        color: black;
+        width: 11rem;
+        margin-left: 2rem;
+        border-radius: 0.4rem;
+        margin-top: -0.5rem;
+}

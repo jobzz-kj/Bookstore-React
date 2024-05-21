@@ -1,0 +1,77 @@
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+
+    /* bg */
+    /* Light / Black */
+    background: #3d4344;
+}
+
+.links,
+.social-media-icons {
+    display: flex;
+}
+
+.links {
+    gap: 1rem;
+}
+
+.contact-us {
+    /* Contact Us */
+
+    height: 16px;
+
+    /* Semibold/12px */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+
+    /* Light / Gray */
+    color: #C3CBCD;
+}
+
+.social-media-icons {
+    text-align: center;
+    gap: 1.25em;
+    background: none;
+    justify-content: end;
+    padding-right: 2em;
+}
+
+.social-media-icons a {
+    cursor: pointer;
+}
+
+.links a {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    text-decoration: none;
+}
+
+.copyright {
+    /* © Hydra. All rights reserved. */
+    /* Semibold/12px */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    justify-content: center;
+    /* Light / Gray */
+    color: #C3CBCD;
+}

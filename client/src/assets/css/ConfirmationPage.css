@@ -1,0 +1,122 @@
+/*!*.confirmationView {*!*/
+/*!*     display: flex;*!*/
+/*!*      flex-direction: column;*!*/
+/*!*      align-items: flex-start;*!*/
+/*!*       margin: 1em auto;*!*/
+/*!*   }*!*/
+/*!*ul {*!*/
+/*!*     text-align: left;*!*/
+/*!* }*!*/
+/*!* ul > li {*!*/
+/*!*     margin: 1em;*!*/
+/*!* }*!*/
+
+/*.confirmationView {*/
+/*    max-width: 800px;*/
+/*    margin: 0 auto;*/
+/*    padding: 2em;*/
+/*    background-color: #f8f8f8;*/
+/*    border-radius: 10px;*/
+/*    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+/*.confirmationView h2 {*/
+/*    text-align: center;*/
+/*    margin-bottom: 1em;*/
+/*}*/
+
+/*.confirmationDetails {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    margin-bottom: 2em;*/
+/*}*/
+
+/*.confirmationInfo,*/
+/*.customerInfo {*/
+/*    flex-basis: 48%;*/
+/*    background-color: #fff;*/
+/*    padding: 1.5em;*/
+/*    border-radius: 5px;*/
+/*    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+/*.confirmationInfo h3,*/
+/*.customerInfo h3 {*/
+/*    margin-bottom: 1em;*/
+/*}*/
+
+/*ul {*/
+/*    list-style-type: none;*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*}*/
+
+/*ul li {*/
+/*    margin-bottom: 0.5em;*/
+/*}*/
+
+/*.thankYouMessage {*/
+/*    text-align: center;*/
+/*    margin-top: 2em;*/
+/*}*/
+
+.confirmation-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation-page h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.no-order-message {
+    text-align: center;
+}
+
+.no-order-message p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.confirmation-details {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.order-info,
+.order-summary,
+.customer-info {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order-info h3,
+.order-summary h3,
+.customer-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.order-info p,
+.customer-info p {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.thank-you-message {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.thank-you-message p {
+    font-size: 1.2rem;
+}

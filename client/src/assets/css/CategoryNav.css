@@ -1,0 +1,96 @@
+.category-nav {
+    background-color: #E2E5E6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.category-buttons {
+    gap: 5em;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+ul li {
+    margin-right: 5rem;
+    /* Adjust the margin to your preferred spacing */
+}
+
+/* Apply margin only to list items except for the last one */
+ul li:last-child {
+    margin-right: 0;
+}
+
+/* Apply margin only to buttons except for the last one */
+.category-buttons button:last-child {
+    margin-right: 0;
+}
+
+
+.category-page {
+    min-height: 84vh;
+
+}
+
+.category-nav {
+    background-color: #E2E5E6;
+     height: 3rem;
+}
+
+.unselected-category-button {
+    text-decoration: none;
+
+    /* Semibold/14px */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+
+    /* Light / Black */
+    color: #373F41;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.unselected-category-button-active {
+    text-decoration: none;
+
+    /* Semibold/14px */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+
+    /* Light / Black */
+    color: #3C64B1;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+}

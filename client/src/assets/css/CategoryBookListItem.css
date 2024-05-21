@@ -1,0 +1,370 @@
+.avatar {
+    display: flex;
+    align-items: center;
+}
+
+.avatar .avatar-name {
+    /* Joblin K James */
+    width: 97px;
+    height: 18px;
+    /* Semibold/14px */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    padding-left: 5px;
+    color: #373F41;
+}
+
+.cart-button {
+    display: inline-flex;
+    align-items: center;
+}
+
+.cart-button .cart-label {
+    /* Ellipse 2 */
+    background: rgba(27, 118, 170, 0.75);
+    /* 2 */
+    width: 22px;
+    height: 22px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.01em;
+    border-radius: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.cart-button .cart-items {
+    margin-bottom: 2rem;
+}
+
+/*.category-buttons {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    text-align: center;*/
+/*    justify-content: center;*/
+
+/*    !* Best Sellers *!*/
+
+/*    font-family: 'Mulish';*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    font-size: 14px;*/
+/*    line-height: 18px;*/
+/*    !* identical to box height, or 129% *!*/
+/*    align-items: center;*/
+/*    letter-spacing: 0.2px;*/
+
+/*    color: #3C64B1;*/
+/*    height: 3rem;*/
+
+/*}*/
+
+/*.category-buttons {*/
+/*    margin-right: 2rem;*/
+/*    !* Adjust the margin to your preferred spacing *!*/
+/*}*/
+
+/*ul {*/
+/*    list-style: none;*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    display: flex;*/
+/*}*/
+
+/*ul li {*/
+/*    margin-right: 5rem;*/
+/*    !* Adjust the margin to your preferred spacing *!*/
+/*}*/
+
+/*!* Apply margin only to list items except for the last one *!*/
+/*ul li:last-child {*/
+/*    margin-right: 0;*/
+/*}*/
+
+/*!* Apply margin only to buttons except for the last one *!*/
+/*.category-buttons button:last-child {*/
+/*    margin-right: 0;*/
+/*}*/
+
+
+/*.category-page {*/
+/*    min-height: 84vh;*/
+
+/*}*/
+
+/*.category-nav {*/
+/*    background-color: #E2E5E6;*/
+/*    !* height: 3rem; *!*/
+/*}*/
+
+/*.unselected-category-button {*/
+/*    text-decoration: none;*/
+
+/*    !* Semibold/14px *!*/
+/*    font-family: 'Mulish';*/
+/*    font-style: normal;*/
+/*    font-weight: 600;*/
+/*    font-size: 14px;*/
+/*    line-height: 18px;*/
+/*    !* identical to box height, or 129% *!*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    letter-spacing: 0.2px;*/
+
+/*    !* Light / Black *!*/
+/*    color: #373F41;*/
+
+
+/*    !* Inside auto layout *!*/
+/*    flex: none;*/
+/*    order: 1;*/
+/*    flex-grow: 0;*/
+/*}*/
+
+/*.category-book-list {*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(4, 1fr);*/
+/*    padding: 5px 5px 5px 5px;*/
+/*    gap: 0.5rem;*/
+/*}*/
+
+/*.category-book-list .book-container .card {*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr auto;*/
+/*    background-color: #E8EDF6;*/
+/*    height: 19rem;*/
+/*}*/
+
+/*.category-book-list .book-container .card .book-image {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    padding: 10px;*/
+/*    transition: transform 0.3s ease, opacity 0.3s ease; !* Smooth transition for transform and opacity *!*/
+/*    opacity: 0.9; !* Start with a slightly lower opacity *!*/
+/*}*/
+
+/*.category-book-list .book-container .card:hover .book-image {*/
+/*    transform: scale(1.05); !* Slightly enlarge the image *!*/
+/*    opacity: 1; !* Fully opaque on hover *!*/
+/*}*/
+
+
+/*.category-book-list .book-container .book-labels {*/
+/*    display: grid;*/
+/*    grid-template-rows: min-content 0.8fr auto;*/
+/*    padding: 11px;*/
+/*}*/
+
+/*.book-labels .book-title-area .book-title {*/
+/*    width: 15rem;*/
+/*    height: 3rem;*/
+
+/*    font-family: 'Mulish';*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    font-size: 20px;*/
+/*    line-height: 20px;*/
+/*    !* or 100% *!*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    letter-spacing: 0.2px;*/
+
+/*    color: #000000;*/
+/*}*/
+
+/*.book-labels .book-title-area .author {*/
+/*    !* AuthorName *!*/
+/*    width: 166px;*/
+/*    height: 20px;*/
+
+/*    font-family: 'Mulish';*/
+/*    font-style: normal;*/
+/*    font-weight: 300;*/
+/*    font-size: 15px;*/
+/*    line-height: 20px;*/
+/*    !* identical to box height, or 133% *!*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    letter-spacing: 0.2px;*/
+
+/*    color: #000000;*/
+/*}*/
+
+.book-labels .price-area {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+}
+
+
+.book-labels .price-strike {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 20px;
+    text-decoration: line-through;
+    color: #F80606;
+}
+
+
+.book-labels .price-area .selling-price {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    padding-left: 5px;
+    color: #000000;
+}
+
+.add-cart {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.addcart-button {
+    /* label */
+    width:13rem;
+    /* Bold/14px */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.3px;
+    justify-content: center;
+
+    /* Light / White */
+    color: #FFFFFF;
+    /* Main/Blue */
+    background: #3C64B1;
+    border-radius: 5px;
+    border: none;
+    height: 3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.addcart-button:hover {
+    background-color: #2B4C8A; /* Darken the button a bit */
+    transform: scale(1.05); /* Slightly increase the button size */
+}
+.addcart-button:focus {
+    outline: 2px solid #2B4C8A; /* Add an outline when focused */
+}
+
+/*.book-style {*/
+/*    height: 280px;*/
+/*    width: 10rem;*/
+/*}*/
+
+.read-now-container {
+    width: 3rem;
+    height: 3rem;
+    background: black;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #3C64B1;
+    cursor: pointer;
+    top: -18.5rem;
+    position: relative;
+    right: -7rem;
+    transform: translate(-8%, -12%);
+}
+
+
+.category-book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    align-content: center;
+    padding: 1rem 2rem;
+}
+
+.card {
+    background: #E8EDF6;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    height: 19rem;
+    width: auto;
+}
+
+.book-image {
+    display: inline-block;
+    position: relative;
+}
+
+img.book-style {
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+    height: 305px;
+    width: 10rem;
+}
+
+.book-labels {
+    display: grid;
+    grid-template-rows: 1.5fr 1fr 1fr;
+    max-height: 19rem;
+    padding: 1rem;
+}
+
+.book-title-area {
+    display: grid;
+    grid-template-rows: max-content auto;
+}
+
+.book-title {
+    color: #000;
+    font-family:'Mulish';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+}
+
+.author {
+    color: #000000a1;
+    font-family: 'Mulish';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    padding-top: .3rem;
+}
+section.book-container {
+    width: 26rem;
+}
